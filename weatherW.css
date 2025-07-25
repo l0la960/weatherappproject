@@ -1,0 +1,85 @@
+body {
+    background-image: url("./151024.jpg");
+     background-size:cover; 
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  background-repeat: no-repeat;
+}
+
+
+.weatherbox {
+    margin: 0 auto;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    border-radius: 10px;
+    opacity: 0.7;
+    border: 1px solid white;
+    position: relative;
+}
+/* backdrop-filter (makes bsckground blurry)*/
+
+#search {
+    width: 460px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin-left: 195px;
+    border-radius: 5px;
+    background-color: rgb(0, 115, 255);
+    color:white;
+}
+
+.weatherbox > span {
+    font-size: 20px;
+}
+
+.place {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.temp {
+    text-align: center;
+    font-size:20px;
+}
+.condition {
+    text-align: center;
+}
+
+.country {
+    text-align: center;
+}
+
+img {
+position: absolute;
+bottom: 30px;
+left: 180px;
+z-index: -1;
+    }
+
+
+ /* .loader {
+    position: absolute;
+    bottom:90px ;
+    left: 215px;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,rgb(0, 115, 255) 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,rgb(0, 115, 255));
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation: l13 1s infinite linear;
+}
+@keyframes l13{ 
+  100%{transform: rotate(1turn)}
+}  */
