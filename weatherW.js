@@ -2,7 +2,7 @@ let search = document.querySelector("#search")
 let btn = document.querySelector(".btn")
  btn.addEventListener("click" , () => {
   let userlocation = search.value.trim()
-  fetch(`http://api.weatherapi.com/v1/forecast.json?key=2acc17d201784043a6b101129252307&q=${userlocation}&days=1&aqi=no&alerts=no`)
+  fetch(`https://api.weatherapi.com/v1/forecast.json?key=2acc17d201784043a6b101129252307&q=${userlocation}&days=1&aqi=no&alerts=no`)
 .then ( (data) =>   data.json())
 .then((info) => {
     console.log(info); 
